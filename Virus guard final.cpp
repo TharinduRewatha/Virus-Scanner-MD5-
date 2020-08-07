@@ -14,7 +14,7 @@ void MaximizeOutputWindow();	//Maximize the CLI window when the code starts
 using namespace std;
 
 
-DWORD main()
+int main()
 {
     MaximizeOutputWindow();
     DWORD cryptStatus = 0;
